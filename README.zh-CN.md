@@ -23,7 +23,7 @@
 
 ## 安装
 
-插件**尚未上架社区目录**。安装文件请从 [GitHub Releases](https://github.com/chmod777h/pdf-sync-scroll/releases) 下载。
+[Obsidian 社区条目](https://community.obsidian.md/plugins/pdf-sync-scroll)已发布。2026 年 10 月 17 日提交时自动审核仍在进行，当前状态请以社区页面为准。安装文件也可从 [GitHub Releases](https://github.com/chmod777h/pdf-sync-scroll/releases) 下载。
 
 1. 在笔记库的配置目录中建立 `plugins/pdf-sync-scroll` 文件夹，默认完整路径为 `.obsidian/plugins/pdf-sync-scroll`。
 2. 将同一版本的 `main.js`、`manifest.json`、`styles.css` 放入该目录。
