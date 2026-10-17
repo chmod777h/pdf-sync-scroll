@@ -23,7 +23,7 @@ Use **vertical, continuous scrolling with no page spreads** in each PDF viewer. 
 
 ## Install
 
-This plugin is **not yet listed** in the community directory. Download releases from [GitHub Releases](https://github.com/chmod777h/pdf-sync-scroll/releases).
+The [Obsidian Community listing](https://community.obsidian.md/plugins/pdf-sync-scroll) is published. Automated community review was pending at submission on October 17, 2026; see the listing for the current status. Release files are also available from [GitHub Releases](https://github.com/chmod777h/pdf-sync-scroll/releases).
 
 For manual installation:
 
