@@ -1,0 +1,6 @@
+.pdf-sync-scroll-status { cursor: pointer; }
+.pdf-sync-scroll-status:hover { color: var(--text-accent); }
+.pdf-sync-scroll-status:focus-visible { outline: 2px solid var(--interactive-accent); }
+.pdf-sync-scroll-linked { scroll-behavior: auto !important; }
+.pdf-sync-picker-list { max-height: 45vh; overflow-y: auto; }
+.pdf-sync-picker .setting-item-description { overflow-wrap: anywhere; }

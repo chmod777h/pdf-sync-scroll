@@ -1,0 +1,10 @@
+{
+  "id": "pdf-sync-scroll",
+  "name": "PDF Sync Scroll",
+  "version": "1.2.0",
+  "minAppVersion": "1.14.4",
+  "description": "Synchronize scrolling across selected PDF panes and popout windows, with page alignment, reading progress, and manual offsets.",
+  "author": "chmod777h",
+  "isDesktopOnly": true,
+  "authorUrl": "https://github.com/chmod777h"
+}

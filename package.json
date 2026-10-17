@@ -1,0 +1,23 @@
+{
+  "name": "pdf-sync-scroll",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Synchronize scrolling across selected PDF panes and popout windows.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "lint": "eslint main.js",
+    "check": "node --check main.js && pnpm run lint && pnpm test",
+    "build": "node scripts/build.cjs",
+    "verify": "pnpm run check && pnpm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "eslint-plugin-obsidianmd": "^0.4.2"
+  },
+  "packageManager": "pnpm@11.25.0"
+}

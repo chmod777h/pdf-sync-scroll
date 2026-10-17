@@ -1,0 +1,91 @@
+[
+  {
+    "name": "page alignment at different PDF heights",
+    "pass": true,
+    "positions": [
+      {
+        "file": "Original.pdf",
+        "top": 1900,
+        "pos": 4.308390022675737
+      },
+      {
+        "file": "Translation.pdf",
+        "top": 2439,
+        "pos": 4.309187279151944
+      }
+    ]
+  },
+  {
+    "name": "reverse scroll and no feedback drift",
+    "pass": true,
+    "positions": [
+      {
+        "file": "Original.pdf",
+        "top": 2493,
+        "pos": 5.653061224489796
+      },
+      {
+        "file": "Translation.pdf",
+        "top": 3200,
+        "pos": 5.6537102473498235
+      }
+    ]
+  },
+  {
+    "name": "manual alignment preserves page offset",
+    "pass": true,
+    "offset": 1.9198256452168618,
+    "positions": [
+      {
+        "file": "Original.pdf",
+        "top": 1200,
+        "pos": 2.7210884353741496
+      },
+      {
+        "file": "Translation.pdf",
+        "top": 2627,
+        "pos": 4.641342756183746
+      }
+    ]
+  },
+  {
+    "name": "overall progress alignment",
+    "pass": true,
+    "progress": [
+      0.8787346221441125,
+      0.8788036410923277
+    ]
+  },
+  {
+    "name": "three PDFs require explicit selection",
+    "pass": true
+  },
+  {
+    "name": "real popout drives a three-PDF group",
+    "pass": true,
+    "progress": [
+      0.2977152899824253,
+      0.2977893368010403,
+      0.2978850163836759
+    ],
+    "windows": 2
+  },
+  {
+    "name": "declarative settings render",
+    "pass": true
+  },
+  {
+    "name": "disable cleans up status, picker, bindings, and animation frame",
+    "pass": true,
+    "group": 0,
+    "cleanups": 0
+  },
+  {
+    "name": "toolbar zoom change and native wheel input",
+    "pass": true,
+    "positions": [
+      3.213864306784661,
+      3.2137809187279154
+    ]
+  }
+]
