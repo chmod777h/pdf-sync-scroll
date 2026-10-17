@@ -26,4 +26,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ github.ref_name }}
-        run: gh release create "$RELEASE_TAG" dist/main.js dist/manifest.json dist/styles.css artifacts/SHA256SUMS.txt --draft --verify-tag --title "$RELEASE_TAG" --notes-file docs/release-notes.md
+        run: |
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "Release already exists; preserving the published assets."
+          else
+            gh release create "$RELEASE_TAG" dist/main.js dist/manifest.json dist/styles.css artifacts/SHA256SUMS.txt --draft --verify-tag --title "$RELEASE_TAG" --notes-file docs/release-notes.md
+          fi
+
