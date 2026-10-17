@@ -21,7 +21,7 @@ The minimum is a conservative verified baseline, not a claim that all older vers
 - 2 release checks validate version metadata and required documentation/local links.
 - JavaScript syntax and the official `eslint-plugin-obsidianmd` JavaScript recommended preset pass. The only general-rule overrides allow the host's CommonJS import and module-local top-level declarations. No Obsidian-specific rules are disabled. TypeScript-only semantic API rules are not applicable to this untyped JavaScript source.
 - Build stages only `main.js`, `manifest.json`, and `styles.css`; version mapping and hashes are verified.
-- GitHub workflows are configured for macOS/Windows/Linux. They have not run on GitHub yet; local test results do not imply remote CI success.
+- GitHub Actions passed on macOS, Windows, and Linux for release commit `d20362b` ([run](https://github.com/chmod777h/pdf-sync-scroll/actions/runs/39023128392)). These syntax, lint, behavioral, release, and build checks do not replace application testing on Windows/Linux.
 
 ## Actual application checks
 
